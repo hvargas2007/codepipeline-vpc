@@ -26,7 +26,7 @@
 
 ## Procedimientos de implementación:
 
-Cree un .tfvar con un contenido como el siguiente:
+Cree un archivo variable.tf con un contenido como el siguiente:
 
 ```bash
 aws_profile       = "" profile creado para desplegar en la cuenta
