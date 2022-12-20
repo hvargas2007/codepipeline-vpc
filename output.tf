@@ -3,7 +3,7 @@ output "vpc_id" {
   description = "VPC ID"
 }
 
-output "private_subnet_id" {
+output "privatesubnet_id" {
   value       = values(aws_subnet.private)[*].id
   description = "Private Subnets ID"
 }
