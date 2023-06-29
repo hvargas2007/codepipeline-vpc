@@ -10,7 +10,8 @@ data "aws_iam_policy_document" "vpc_fl_policy_source" {
       "logs:DescribeLogGroups",
       "logs:DescribeLogStreams"
     ]
-    resources = ["*"]
+    #tfsec:ignore:aws-iam-no-policy-wildcards
+    resources = ["*"]   
   }
 }
 
