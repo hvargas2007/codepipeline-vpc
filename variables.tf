@@ -1,8 +1,3 @@
-variable "aws_profile" {
-  description = "[REQUIRED] The AWS Region to deploy the resources"
-  type        = string
-}
-
 variable "aws_region" {
   description = "[REQUIRED] The AWS Region to deploy the resources"
   type        = string
